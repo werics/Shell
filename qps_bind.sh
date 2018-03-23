@@ -1,4 +1,4 @@
-#/bin/bash
+#/bin/sh
 
 RNDC='/usr/sbin/rndc dumpdb -cache'
 DUMPDB_SRC='/var/named/data/cache_dump.db'
