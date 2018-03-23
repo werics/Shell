@@ -15,4 +15,4 @@ cp -rfp /var/named/named.loopback $DST_DIR
 
 tar zcvf /data/backup/$DATE.named.tar.gz $DST_DIR
 
-rsync -azuvP --progress /data/backup/*.tar.gz rsyncbak@172.25.15.24::dns --password-file=$RSYNCDSECRET
+rsync -azuvP --progress /data/backup/*.tar.gz rsyncbak@1.1.1.1::dns --password-file=$RSYNCDSECRET
